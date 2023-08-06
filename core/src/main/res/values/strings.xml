@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_internet">No Internet Connection</string>
+    <string name="error_socket_timeout">Connection Timeout</string>
+    <string name="error_server_304">Something went wrong! Please Clean browsing data</string>
+    <string name="error_generic">Something went wrong!</string>
+    <string name="error_not_success">Can\'t Load data</string>
+    <string name="error_server_404">404 Not found</string>
+    <string name="error_server_500">Sever connection Timeout</string>
+    <string name="error_no_data">No Data Found!</string>
+</resources>

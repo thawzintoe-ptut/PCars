@@ -1,0 +1,31 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+}
+rootProject.name = "PCars"
+include ':app'
+include ':core'
+include ':core_network'
+include ':core_ui'
+include ':feature-car:car_ui'
+include ':feature-car:car_domain'
+include ':feature-car:car_data'
+include ':core_cache'
+include ':sync'
+include ':feature-article'
+include ':feature-article:article-data'
+include ':feature-article:article-domain'
+include ':feature-article:article-ui'
+include ':feature-login'
+include ':feature-login:login-ui'

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="please_try_again_label">Please try again</string>
+    <string name="retry_btn_label">Retry</string>
+    <string name="car_home_title">Cars</string>
+    <string name="article_screen_loading">LoadingData</string>
+    <string name="error_content">Something went wrong</string>
+</resources>
